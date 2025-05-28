@@ -1,0 +1,36 @@
+@charset "UFT-8";
+
+@media(max-width: 420px) {
+    section {
+        width: 100%;
+    }
+
+    #botao {
+        width: 18.5rem;
+        height: 4rem; 
+        font-size: 1.6rem;   
+    }
+
+    #tot_tar {
+        font-size: 1.54rem;
+    }
+
+    label {
+        font-size: 1.4rem;
+    }
+
+    #dig_taref {
+        font-size: 1.7rem;
+    }
+
+    #enviar {
+        width: 6.5rem;
+        height: 3rem; 
+        font-weight: 600; 
+        font-size: 1.5rem; 
+    }
+
+    .tarefas {
+        font-size: 1.8rem;   
+    }
+}

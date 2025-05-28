@@ -58,6 +58,10 @@ main {
     height: 3rem;
 }
 
+label {
+    font-size: 1.2rem;
+}
+
 #adc_taref {
     font-size: 1.2rem;
     display: none;
