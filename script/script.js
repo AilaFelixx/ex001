@@ -57,6 +57,8 @@ function enviar() {
     divtar.appendChild(divbotoes) // Botei a div de botões na div de tarefas
     
     divexib.textContent = tarefa[c].nome
+    document.getElementById('dig_taref').value = ""
+    document.getElementById('dig_taref').focus()
     divtar.style.display = 'flex'
     
     function checkCheck(){
