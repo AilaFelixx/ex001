@@ -10,27 +10,33 @@
         height: 4rem; 
         font-size: 1.6rem;   
     }
-
-    #tot_tar {
-        font-size: 1.54rem;
-    }
-
+    
     label {
         font-size: 1.4rem;
-    }
 
+    }
+    
     #dig_taref {
         font-size: 1.7rem;
     }
 
+    #adc_taref {
+        width: 90%;
+        text-align: center;
+    }
+    
     #enviar {
         width: 6.5rem;
         height: 3rem; 
         font-weight: 600; 
-        font-size: 1.5rem; 
+        font-size: 1.5rem;
     }
 
     .tarefas {
         font-size: 1.8rem;   
+    }
+
+    #tot_tar {
+        font-size: 1.54rem;
     }
 }

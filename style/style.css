@@ -41,7 +41,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1.5rem;
+    margin: 1.2rem;
 }
 
 #botao {
@@ -65,10 +65,12 @@ label {
 #adc_taref {
     font-size: 1.2rem;
     display: none;
+    width: 70%;
+    margin-top: 1rem;
 }
 
 #dig_taref {
-    width: 30rem;
+    width: 100%;
 }
 
 #enviar {
@@ -79,6 +81,12 @@ label {
     border: none;
     border-radius: 0.3rem;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.164);
+}
+
+#bot_center {
+    display: flex;
+    justify-content: center;
+    margin: 1.2rem;
 }
 
 #botao:active {
